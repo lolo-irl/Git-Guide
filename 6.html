@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta name="viewpoint" content="width=device-width",initial-scale=1.0>
+        <meta charset="utf-8">
+        <title>Git Guide</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <header>
+        <div id="guide"><h1>Git Guide</h1>
+        </div>
+            <nav class="navbar">
+              <ul class="nav-links">
+                <li><a href="1.html">O que é o nosso site?</a></li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Usando o GitHub</a>
+                  <div class="dropdown-content">
+                    <a href="2.html">Criando a conta</a>
+                    <a href="4.html">Básico</a>
+                    <a href="5.html">Repositórios</a>
+                  </div>
+                  <li class="dropdown">
+                    <a href="" class="dropbtn">Usando o Git</a>
+                    <div class="dropdown-content">
+                      <a href="3.html">Comandos Básicos</a>
+                    </div>
+                <li><a href="6.html">Branches e Merge</a></li>
+              </ul>
+              <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+
+            </nav>
+        </header>
+            <body>
+                    <h1>Branches</h1><br>
+                    <p>Branches são ramificações do código em um repositório Git, permitindo que você trabalhe em diferentes versões de um projeto simultaneamente. Cada branch pode conter suas próprias alterações, independentemente das outras, o que é útil para desenvolver novas funcionalidades, corrigir bugs ou experimentar ideias sem afetar a versão principal do projeto, geralmente chamada de "main" ou "master".</p><br>
+                    <p>Para criar uma nova branch no GitHub usando o Git no terminal, você pode seguir esses passos:</p><br>
+
+                        <br><p><b>1.</b> Primeiro, certifique-se de estar na branch a partir da qual deseja criar a nova branch. Use o comando <b>'git checkout main'</b> (ou o nome da branch atual).</p><br>
+                        
+                        <p><b>2.</b> Crie a nova branch com o comando git checkout -b nome-da-branch, substituindo "nome-da-branch" pelo nome que você deseja dar à nova branch.</p><br>
+                        
+                        <p><b>3.</b> Depois de criar a branch, você pode começar a fazer commits nessa nova branch. Quando terminar, pode enviar suas alterações para o GitHub usando git push -u origin nome-da-branch.</p><br>
+
+                        <br><h1>Merges</h1><br>
+                            <p>Fazer um merge de branches significa combinar as mudanças de uma branch (geralmente uma branch de desenvolvimento ou feature) com outra, geralmente a branch principal (como main ou master). Isso é feito quando as alterações em uma branch estão prontas para serem integradas ao código principal do projeto.</p><br>
+                            <h3>Como fazer merge de branches:</h3>
+                            
+                                <p><b>1. Navegue para a branch principal:</b> Primeiro, vá para a branch na qual você deseja fazer o merge. Normalmente, isso será a branch main ou master. Use o comando:
+                                    <b><i>bash
+                                    git checkout main</p></i></b><br>
+
+
+                                    <p><b>2. Execute o merge:</b>  Em seguida, faça o merge da branch de desenvolvimento (por exemplo, feature-branch) na branch principal usando:
+                                        <b><i>bash</i></b>
+                                        <b><i>git merge feature-branch</i></b>. Isso aplicará as mudanças da feature-branch na main.</p>
+
+                                        <p><b>3. Enviar para o GitHub:</b> Finalmente, envie as mudanças combinadas para o repositório remoto no GitHub usando:
+                                            <b><i>bash</i></b>
+                                            <b><i>git push origin main</i></b></p>
+            </body>
+
+        <footer>
+            <p>© 2024 Elycolas</p>
+        </footer>
+        <script src="script.js"></script>
+    </html>

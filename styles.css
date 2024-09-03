@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serifs;
+    background: rgb(0,8,37);
+    background: linear-gradient(90deg, rgba(0,8,37,1) 0%, rgba(1,1,23,1) 44%, rgba(16,2,24,1) 100%);
+    text-align: center;  
+    color: aliceblue;  
+  }
+
+  #guide{
+    margin-inline-start: -1025px;
+  }
+
+  p{
+    margin: auto;
+    width: 800px;
+  }
+  
+  header {
+    background: #100a33;
+    color: #ffffff;
+    height: 100px;
+    line-height: 15px;
+    padding: 1rem 0;
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #120a3f;
+    min-width: 160px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+  }
